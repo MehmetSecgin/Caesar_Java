@@ -1,2 +1,2 @@
-# Caesar_pyhton
-Caesar Cipher on python
+# Caesar_Java
+Caesar Cipher on Java
