@@ -8,11 +8,11 @@ public class Caesar {
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Aga gir mesaj: ");
+        System.out.println("Please enter your text for Encrypting or Decrypting: ");
         msg = (sc.nextLine()).toUpperCase();
-        System.out.println("Aga encrypt icin 0, descrpyt icin 1'e bas");
+        System.out.println("Inout 0 for encryption , 1 for decrypting the text");
         choice = sc.nextInt();
-        System.out.println("Aga soyle ne kadar kaydırmak: ");
+        System.out.println("Please input the shift amount : ");
         key = sc.nextInt();
 
         circle();
